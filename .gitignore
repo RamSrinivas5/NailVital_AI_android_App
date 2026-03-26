@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Model weights and ZIPs (large files)
+ml_models/*.zip
+ml_models/dataset/
+
+# Uploads
+uploads/
+*.pdf
+diagnostic_results.txt
