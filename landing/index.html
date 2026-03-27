@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NailVital AI - Skin & Nail Health Redefined</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --mint: #00C9A7;
+            --deep: #0D1F2D;
+            --slate: #1E3448;
+            --white: #FFFFFF;
+            --grad: linear-gradient(135deg, #00C9A7 0%, #009E84 100%);
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--deep);
+            color: var(--white);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-family: 'Sora', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            margin-bottom: 20px;
+            background: var(--grad);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #A0B3C1;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 18px 36px;
+            background: var(--grad);
+            color: var(--deep);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 10px 30px rgba(0, 201, 167, 0.3);
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0, 201, 167, 0.5);
+        }
+        .preview-img {
+            margin-top: 60px;
+            width: 100%;
+            max-width: 600px;
+            border-radius: 24px;
+            box-shadow: 0 20px 80px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        footer {
+            margin-top: auto;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NailVital AI</h1>
+        <p>Your AI-powered companion for instant nail and skin health analysis. 
+           Professional-grade diagnostics in the palm of your hand.</p>
+        
+        <a href="nailvital-ai.apk" class="cta-button">Download for Android (.APK)</a>
+    </div>
+
+    <div class="footer">
+        © 2026 NailVital AI Labs. Professional Diagnostic Tool.
+    </div>
+</body>
+</html>
