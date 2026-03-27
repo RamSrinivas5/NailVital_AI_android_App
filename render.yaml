@@ -15,8 +15,8 @@ services:
       - key: DATABASE_URL
         sync: false
 
-  - type: static
+  - type: web
     name: nailvital-landing
     env: static
     buildCommand: ""
-    publishDir: landing
+    staticPublishPath: landing
