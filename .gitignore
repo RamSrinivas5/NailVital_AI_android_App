@@ -34,6 +34,8 @@ ai_model_training/
 ml_models/
 
 # But allow essential production files in backend/ml_models
+!backend/ml_models/
+backend/ml_models/*
 !backend/ml_models/nail_model_quantized.tflite
 !backend/ml_models/class_names.txt
 __pycache__/
